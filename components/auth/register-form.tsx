@@ -180,7 +180,7 @@ export function RegisterForm({ onBackToLogin }: RegisterFormProps) {
       <Card className="w-full max-w-2xl">
         <CardHeader className="text-center">
           <CardTitle className="text-2xl font-bold">Create Account</CardTitle>
-          <CardDescription>Join Invoice Manager to start managing your invoices</CardDescription>
+          <CardDescription>Join TallyLite to start managing your invoices</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

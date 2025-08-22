@@ -86,7 +86,7 @@ export function Sidebar({ currentView, onViewChange, isCollapsed = false, onTogg
         <div className="flex items-center justify-between">
           {showLabels && (
             <div>
-              <h2 className="text-lg font-semibold text-foreground">Invoice Manager</h2>
+              <h2 className="text-lg font-semibold text-foreground">TallyLite</h2>
               <p className="text-sm text-muted-foreground mt-1">
                 {user?.role === "admin" ? "Administrator" : "User"} Panel
               </p>
@@ -117,7 +117,7 @@ export function Sidebar({ currentView, onViewChange, isCollapsed = false, onTogg
               className={cn(
                 "w-full gap-3 shadow-none",
                 showLabels ? "justify-start" : "justify-center p-2",
-                isActive && "bg-gradient-to-r from-orange-500 to-orange-400 text-white",
+                isActive && "bg-gradient-to-r from-orange-500 to-orange-400 text-white hover:from-orange-500/90 hover:to-orange-400/90",
                 !isActive && "hover:bg-gradient-to-r hover:from-orange-500/10 hover:to-orange-400/10",
               )}
               onClick={() => handleNavigation(item.id)}

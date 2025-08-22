@@ -16,7 +16,7 @@ interface InvoiceStatsProps {
 export function InvoiceStats({ stats }: InvoiceStatsProps) {
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-      <Card className="hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500">
+      <Card className="">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">Total Invoices</CardTitle>
         </CardHeader>
@@ -25,7 +25,7 @@ export function InvoiceStats({ stats }: InvoiceStatsProps) {
           <p className="text-xs text-muted-foreground">All time invoices</p>
         </CardContent>
       </Card>
-      <Card className="hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500">
+      <Card className="">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">Paid Invoices</CardTitle>
         </CardHeader>
@@ -34,7 +34,7 @@ export function InvoiceStats({ stats }: InvoiceStatsProps) {
           <p className="text-xs text-muted-foreground">Successfully collected</p>
         </CardContent>
       </Card>
-      <Card className="hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500">
+      <Card className="">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">Overdue</CardTitle>
         </CardHeader>
@@ -43,7 +43,7 @@ export function InvoiceStats({ stats }: InvoiceStatsProps) {
           <p className="text-xs text-muted-foreground">Requires attention</p>
         </CardContent>
       </Card>
-      <Card className="hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500">
+      <Card className="">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">Total Revenue</CardTitle>
         </CardHeader>
